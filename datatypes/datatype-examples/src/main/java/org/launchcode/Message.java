@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class Message {
+public class  Message {
 
     public static String getMessage(String lang) {
 
