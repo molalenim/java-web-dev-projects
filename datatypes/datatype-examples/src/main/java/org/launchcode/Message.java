@@ -1,6 +1,6 @@
 package org.launchcode;
 
-public class  Message {
+public class Message {
 
     public static String getMessage(String lang) {
 
@@ -8,8 +8,12 @@ public class  Message {
             return "¡Hola, Mundo!";
         } else if (lang.equals("fr")) {
             return "Bonjour, le monde!";
+        } else if (lang.equals("sotho")) {
+            return "Dumela, Lefatse!";
+
         } else {
             return "Hello, World!";
         }
     }
+
 }
