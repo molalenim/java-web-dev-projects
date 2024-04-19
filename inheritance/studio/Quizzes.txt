@@ -1,0 +1,28 @@
+Parent
+
+Questions
+prompt: String
+choices: ArrayList of Strings
+displayPrompt()
+checkAnswers()
+
+Child1
+
+MultipleChoice
+options: ArrayList of Strings
+correctAnswer: int
+displayOptions()
+
+Child2
+
+Checkbox
+options: ArrayList of Strings
+correctAnswers: int[]
+displayOptions()
+
+child3
+TrueFalse
+correctAnswer: boolean
+
+
+
